@@ -1,16 +1,14 @@
-BUILDING A SOCIAL APPLICATION
+BUILDING A SOCIAL APPLICATION - IMAGE SHARING PLATFORM
 
 # STARTING THE PROJECT
 ------------------------------------------
 - Create repository
 - Create and activate virtual environment:
     $ mkdir env
-    $ python -m venv env/social-app
+    $ python3 -m venv env/social-app
     $ source env/social-app/bin/activate
 -  Create a .gitignore within the project directory and list files to be ignored
     $ touch .gitignore
-- Install latest/relevant version of Python in the virtual environment
-    $ brew install python
 - Update pip, if needed
     $ pip install --upgrade pip 
 - Install Django in the virtual environment 
