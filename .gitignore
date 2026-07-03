@@ -10,3 +10,6 @@ env/
 
 # Django settings 
 settings.py
+
+# Private - WIP design, UI, app branding
+private/
