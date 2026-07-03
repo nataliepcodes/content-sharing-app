@@ -1,0 +1,84 @@
+BUILDING A SOCIAL APPLICATION
+
+# STARTING THE PROJECT
+------------------------------------------
+- Create repository
+- Create and activate virtual environment:
+    $ mkdir env
+    $ python -m venv env/social-app
+    $ source env/social-app/bin/activate
+-  Create a .gitignore within the project directory and list files to be ignored
+    $ touch .gitignore
+- Install latest/relevant version of Python in the virtual environment
+    $ brew install python
+- Update pip, if needed
+    $ pip install --upgrade pip 
+- Install Django in the virtual environment 
+    $ pip install Django
+- Create new project
+    $ django-admin startproject social-app
+- Create new application named account
+    $ cd social app
+    $ django-admin startapp account
+- Add the new application in settings.py under INSTALLED_APPS:
+    INSTALLED_APPS = [
+        'account.apps.AccountConfig',
+    ]
+- Sync the database with the default apps included in INSTALLED_APPS
+    $ python manage.py migrate
+------------------------------------------
+
+# AUTH FRAMEWORK
+------------------------------------------ 
+
+
+
+------------------------------------------
+
+# CREATE LOGIN VIEW
+------------------------------------------
+
+
+
+------------------------------------------
+
+# CREATE AUTHENTIFICATION VIEWs
+------------------------------------------ 
+
+
+
+------------------------------------------
+
+# CREATE CHANGING PASSWORD VIEWs
+------------------------------------------
+
+
+------------------------------------------
+
+# CREATE RESETTING PASSWORD VIEWs
+------------------------------------------
+
+
+
+------------------------------------------
+
+# USER REGISTRATION AND PROFILES
+------------------------------------------
+
+
+
+------------------------------------------
+
+# MESSAGES FRAMEWORK
+------------------------------------------
+
+
+
+------------------------------------------
+
+# ADDING SOCIAL AUTHENTIFICATION to THE SITE
+------------------------------------------
+
+
+
+------------------------------------------

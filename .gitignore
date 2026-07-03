@@ -1,0 +1,12 @@
+# Database
+mysite/db.sqlite3
+
+# Python cache
+__pycache__/
+__init__.py
+
+# Virtual environment
+env/
+
+# Django settings 
+settings.py
