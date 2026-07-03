@@ -14,9 +14,9 @@ BUILDING A SOCIAL APPLICATION - IMAGE SHARING PLATFORM
 - Install Django in the virtual environment 
     $ pip install Django
 - Create new project
-    $ django-admin startproject social-app
+    $ django-admin startproject project_name
 - Create new application named account
-    $ cd social app
+    $ cd project_name
     $ django-admin startapp account
 - Add the new application in settings.py under INSTALLED_APPS:
     INSTALLED_APPS = [
@@ -24,6 +24,10 @@ BUILDING A SOCIAL APPLICATION - IMAGE SHARING PLATFORM
     ]
 - Sync the database with the default apps included in INSTALLED_APPS
     $ python manage.py migrate
+- Dependencies - requirements.txt:
+    $ pip freeze > requirements.txt
+    $ pip install -r requirements.txt
+
 ------------------------------------------
 
 # AUTH FRAMEWORK
