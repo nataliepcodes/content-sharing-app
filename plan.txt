@@ -15,12 +15,12 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
     $ pip install Django
 ☑️ Create new project
     $ django-admin startproject project_name
-☑️ Create new application named account
+☑️ Create new application named users
     $ cd project_name
-    $ django-admin startapp account
+    $ django-admin startapp users
 ☑️ Add the new application in settings.py under INSTALLED_APPS:
     INSTALLED_APPS = [
-        'account.apps.AccountConfig',
+        'users.apps.UsersConfig',
     ]
 ☑️ Sync the database with the default apps included in INSTALLED_APPS
     $ python manage.py migrate
