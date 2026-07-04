@@ -7,6 +7,8 @@ from django.contrib.auth import authenticate, login
 Authentification system sources: 
 1) https://docs.djangoproject.com/en/6.0/topics/auth/default/
 2) Django3 by Example, Antonio Mele, Third Edition, 2020
+3) Tutorial lesson by Dave Gray: Django Login Form and User Authentication
+https://www.youtube.com/watch?v=vzBFJ3WEvOQ
 """
 
 def handle_login(request):
