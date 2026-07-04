@@ -5,8 +5,8 @@ BUILDING A SOCIAL APPLICATION - IMAGE SHARING PLATFORM
 - Create repository
 - Create and activate virtual environment:
     $ mkdir env
-    $ python3 -m venv env/social-app
-    $ source env/social-app/bin/activate
+    $ python3 -m venv env/project_name
+    $ source env/project_name/bin/activate
 -  Create a .gitignore within the project directory and list files to be ignored
     $ touch .gitignore
 - Update pip, if needed
