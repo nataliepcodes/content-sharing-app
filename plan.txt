@@ -27,21 +27,26 @@ BUILDING A SOCIAL APPLICATION - IMAGE SHARING PLATFORM
 - Dependencies - requirements.txt:
     $ pip freeze > requirements.txt
     $ pip install -r requirements.txt
-
 ------------------------------------------
 
 # AUTH FRAMEWORK
 ------------------------------------------ 
-
-
-
+- Authentification framework is added in settings.py in MIDDLEWARE as django.contrib.auth
+- Default middleware is included for AuthentificationMiddleware and SessionMiddleware
+- Authentification framework includes USER, GROUP and PERMISSION models
 ------------------------------------------
 
 # CREATE LOGIN VIEW
 ------------------------------------------
-
-
-
+- create LoginForm class in forms.py
+- edit views.py to add user_login method
+- project: mȧri 
+- app: account
+- create urls.py  at the app level and add login url
+- edit urls.py at the project level and add the app url for the 'account'
+- create login.html and base.html templates for the 'account' app
+- create superuser to access admin site
+- create user
 ------------------------------------------
 
 # CREATE AUTHENTIFICATION VIEWs
