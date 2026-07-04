@@ -1,6 +1,6 @@
-BUILDING A SOCIAL APPLICATION - IMAGE SHARING PLATFORM
+BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 
-# STARTING THE PROJECT
+# STARTING THE PROJECT ✅
 ------------------------------------------
 - Create repository
 - Create and activate virtual environment:
@@ -29,7 +29,7 @@ BUILDING A SOCIAL APPLICATION - IMAGE SHARING PLATFORM
     $ pip install -r requirements.txt
 ------------------------------------------
 
-# AUTH FRAMEWORK
+# AUTH FRAMEWORK ✅
 ------------------------------------------ 
 - Authentification framework is added in settings.py in MIDDLEWARE as django.contrib.auth
 - Default middleware is included for AuthentificationMiddleware and SessionMiddleware
