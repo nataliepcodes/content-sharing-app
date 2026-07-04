@@ -2,29 +2,29 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 
 # STARTING THE PROJECT ✅
 ------------------------------------------
-- Create repository
-- Create and activate virtual environment:
+☑️ Create repository
+☑️ Create and activate virtual environment:
     $ mkdir env
     $ python3 -m venv env/project_name
     $ source env/project_name/bin/activate
--  Create a .gitignore within the project directory and list files to be ignored
+☑️ Create a .gitignore within the project directory and list files to be ignored
     $ touch .gitignore
-- Update pip, if needed
+☑️ Update pip, if needed
     $ pip install --upgrade pip 
-- Install Django in the virtual environment 
+☑️ Install Django in the virtual environment 
     $ pip install Django
-- Create new project
+☑️ Create new project
     $ django-admin startproject project_name
-- Create new application named account
+☑️ Create new application named account
     $ cd project_name
     $ django-admin startapp account
-- Add the new application in settings.py under INSTALLED_APPS:
+☑️ Add the new application in settings.py under INSTALLED_APPS:
     INSTALLED_APPS = [
         'account.apps.AccountConfig',
     ]
-- Sync the database with the default apps included in INSTALLED_APPS
+☑️ Sync the database with the default apps included in INSTALLED_APPS
     $ python manage.py migrate
-- Dependencies - requirements.txt:
+☑️ Dependencies - requirements.txt:
     $ pip freeze > requirements.txt
     $ pip install -r requirements.txt
 ------------------------------------------
@@ -38,7 +38,7 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 
 # CREATE LOGIN VIEW
 ------------------------------------------
-- create LoginForm class in forms.py
+☑️ create LoginForm class in forms.py
 - edit views.py to add user_login method
 - project: mȧri 
 - app: account
