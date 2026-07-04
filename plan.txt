@@ -45,18 +45,19 @@ https://www.youtube.com/watch?v=vzBFJ3WEvOQ
 
 # CREATE REGISTRATION VIEW
 ------------------------------------------
-
+- NA for this project
 ------------------------------------------
 
 # CREATE LOGIN VIEW
 ------------------------------------------
-☑️ create LoginForm class in forms.py
-- edit views.py to add user_login method
-- project: mȧri 
-- app: account
-- create urls.py  at the app level and add login url
-- edit urls.py at the project level and add the app url for the 'account'
-- create login.html and base.html templates for the 'account' app
-- create superuser to access admin site
-- create user
+☑️ forms.py: create LoginForm class in forms.py
+- views.py: to add user login method
+- app urls.py: create app level urls.py and add login url
+- project urls.py: add the app url
+- app templates: create login.html and base.html templates  
+------------------------------------------
+
+# CREATE SUPERUSER
+------------------------------------------
+- $ python manage.py createsuperuser
 ------------------------------------------
