@@ -34,12 +34,6 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 - Authentification framework is added in settings.py in MIDDLEWARE as django.contrib.auth
 - Default middleware is included for AuthentificationMiddleware and SessionMiddleware
 - Authentification framework includes USER, GROUP and PERMISSION models
-Authentification system sources: 
-1) https://docs.djangoproject.com/en/6.0/topics/auth/default/
-2) Django3 by Example, Antonio Mele, Third Edition, 2020
-3) Tutorial lesson by Dave Gray: Django Login Form and User Authentication
-https://www.youtube.com/watch?v=vzBFJ3WEvOQ
-4) https://www.crunchydata.com/blog/building-a-user-registration-form-with-djangos-built-in-authentication
 ------------------------------------------
 
 
