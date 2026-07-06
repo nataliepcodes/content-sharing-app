@@ -1,12 +1,12 @@
-{% extends "mari/base.html" %}
+{% extends "base.html" %}
 {% block title %}Login{% endblock title %}
 {% block content %}
     <h1>Login</h1>
-    <form method="post" action="{% url 'login' %}">
+    <form method="post">
         <!-- CSRF to be placed before {{ form.as_p }}  variable -->
         {% csrf_token %}
         <!-- as_p() renders the form as a series of <p> tags, with each <p> containing one field-->
         {{ form.as_p }}
-        <button type="submit">Login</button>
+        <button type="submit">Submit</button>
     </form>
 {% endblock content %}
