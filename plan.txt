@@ -44,11 +44,12 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 
 # CREATE LOGIN VIEW
 ------------------------------------------
-☑️ forms.py: create LoginForm class in forms.py
-- views.py: to add user login method
+☑️ app templates: create app/templates/app/login.html
+☑️ project templates: create templates/base.html at the project level 
 ☑️ app urls.py: create app level urls.py and add login url
 ☑️ project urls.py: add the app url
-- app templates: create login.html and base.html templates  
+- forms.py: create UserLoginForm class in forms.py
+- views.py: to add user login_view method
 ------------------------------------------
 
 # CREATE SUPERUSER
