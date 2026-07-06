@@ -55,7 +55,20 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
     🌸 implement "/redirected-to-profile-dashboard/"
 ------------------------------------------
 
+
 # CREATE SUPERUSER
 ------------------------------------------
 - $ python manage.py createsuperuser
+------------------------------------------
+
+
+# CREATE LOGOUT VIEW
+------------------------------------------
+
+------------------------------------------
+
+
+# CREATE PROFILE DASHBOARD
+------------------------------------------
+
 ------------------------------------------
