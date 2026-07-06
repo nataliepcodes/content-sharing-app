@@ -1,39 +1,38 @@
 BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 
-# STARTING THE PROJECT ✅
 ------------------------------------------
-☑️ Create repository
-☑️ Create and activate virtual environment:
+🌸 TODO 
+🔵 IN PROGRESS
+✅ DONE
+------------------------------------------
+
+# STARTING THE PROJECT
+------------------------------------------
+✅ Create repository
+✅ Create and activate virtual environment:
     $ mkdir env
     $ python3 -m venv env/project_name
     $ source env/project_name/bin/activate
-☑️ Create a .gitignore within the project directory and list files to be ignored
+✅ Create a .gitignore within the project directory and list files to be ignored
     $ touch .gitignore
-☑️ Update pip, if needed
+✅ Update pip, if needed
     $ pip install --upgrade pip 
-☑️ Install Django in the virtual environment 
+✅ Install Django in the virtual environment 
     $ pip install Django
-☑️ Create new project
+✅ Create new project
     $ django-admin startproject project_name
-☑️ Create new application named users
+✅ Create new application named users
     $ cd project_name
     $ django-admin startapp users
-☑️ Add the new application in settings.py under INSTALLED_APPS:
+✅ Add the new application in settings.py under INSTALLED_APPS:
     INSTALLED_APPS = [
         'users.apps.UsersConfig',
     ]
-☑️ Sync the database with the default apps included in INSTALLED_APPS
+✅ Sync the database with the default apps included in INSTALLED_APPS
     $ python manage.py migrate
-☑️ Dependencies - requirements.txt:
+✅ Dependencies - requirements.txt:
     $ pip freeze > requirements.txt
     $ pip install -r requirements.txt
-------------------------------------------
-
-# AUTH FRAMEWORK ✅
------------------------------------------- 
-- Authentification framework is added in settings.py in MIDDLEWARE as django.contrib.auth
-- Default middleware is included for AuthentificationMiddleware and SessionMiddleware
-- Authentification framework includes USER, GROUP and PERMISSION models
 ------------------------------------------
 
 
@@ -42,14 +41,18 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 - NA for this project
 ------------------------------------------
 
+
 # CREATE LOGIN VIEW
 ------------------------------------------
-☑️ app templates: create app/templates/app/login.html
-☑️ project templates: create templates/base.html at the project level 
-☑️ app urls.py: create app level urls.py and add login url
-☑️ project urls.py: add the app url
-☑️ forms.py: create UserLoginForm class in forms.py
-☑️ views.py: to add user login_view method
+🔵 app templates: create app/templates/app/login.html
+    🌸 implement 'Forgot the password' option
+✅ project templates: create templates/base.html at the project level 
+✅ app urls.py: create app level urls.py and add login url
+✅ project urls.py: add the app url
+✅ forms.py: create UserLoginForm class in forms.py
+🔵 views.py: to add user login_view method
+    🌸 implement form validation
+    🌸 implement "/redirected-to-profile-dashboard/"
 ------------------------------------------
 
 # CREATE SUPERUSER
