@@ -1,12 +1,31 @@
 {% extends "base.html" %}
 {% block title %}Login{% endblock title %}
 {% block content %}
-    <h1>Login</h1>
-    <form method="post">
-        <!-- CSRF to be placed before {{ form.as_p }}  variable -->
-        {% csrf_token %}
-        <!-- as_p() renders the form as a series of <p> tags, with each <p> containing one field-->
-        {{ form.as_p }}
-        <button type="submit" class="btn btn-dark">Submit</button>
-    </form>
+    <div>
+        <div class="d-flex justify-content-center mt-5">
+            <h1>Login</h1>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <form method="post">
+                <!-- CSRF to be placed before {{ form.as_p }}  variable -->
+                {% csrf_token %}
+                <div class="mb-3 mt-4">
+                    <label for="{{ form.password.id_for_label }}">Email</label>
+                    <br>
+                    {{ form.email }}
+                </div>
+
+                <div class="mb-3">
+                    <label for="{{ form.password.id_for_label }}">Password</label>
+                    <br>
+                    {{ form.password }}
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
 {% endblock content %}
