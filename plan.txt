@@ -44,9 +44,9 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 
 # CREATE LOGIN VIEW
 ------------------------------------------
-🔵 app templates: create app/templates/app/login.html
+✅ app templates: create app/templates/app/login.html
     ✅ implement styling for login page
-🔵 project templates: create templates/base.html at the project level 
+✅ project templates: create templates/base.html at the project level 
     ✅ implement header section styling
 ✅ app urls.py: create app level urls.py and add login url
 ✅ project urls.py: add the app url
