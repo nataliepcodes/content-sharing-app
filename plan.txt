@@ -45,14 +45,26 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 # CREATE LOGIN VIEW
 ------------------------------------------
 🔵 app templates: create app/templates/app/login.html
-    🌸 implement 'Forgot the password' option
-✅ project templates: create templates/base.html at the project level 
+    🌸 implement styling for login page
+🔵 project templates: create templates/base.html at the project level 
+    🌸 implement header section styling
 ✅ app urls.py: create app level urls.py and add login url
 ✅ project urls.py: add the app url
 ✅ forms.py: create UserLoginForm class in forms.py
 🔵 views.py: to add user login_view method
     🌸 implement form validation
-    🌸 implement "/redirected-to-profile-dashboard/"
+------------------------------------------
+
+
+# CREATE PASSWORD-RESET FEATURE
+------------------------------------------
+🌸 implement 'Forgot the password' option
+------------------------------------------
+
+
+# CREATE PROFILE DASHBOARD
+------------------------------------------
+🌸 implement "/redirected-to-profile-dashboard/"
 ------------------------------------------
 
 
