@@ -13,7 +13,7 @@ def login_view(request):
             authenticate() checks is_active and rejects users with is_active=False in Django version 6.0.x 
             Thus, authenticate() will return False for the user accounts that are disabled
             More in https://github.com/django/django/tree/stable/6.0.x/django
-            Search in django.contrib.auth.backends in class ModelBackend
+            Search for 'def user_can_authenticate function' in django.contrib.auth.backends in class ModelBackend
             """
             user = authenticate(request, username=form_data['email'], password=form_data['password'])
             if user is not None:
