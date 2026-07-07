@@ -8,16 +8,18 @@ def login_view(request):
         form = UserLoginForm(request.POST)
         if form.is_valid():
             form_data = form.cleaned_data
-            # authenticate() verifies that the user credentials are valid. It returns None if not valid
-            user = authenticate(request, email=form_data['email'], password=form_data['password'])
+            """
+            authenticate() verifies that the user credentials are valid. It returns None if not valid
+            authenticate() checks is_active and rejects users with is_active=False in Django version 6.0.x 
+            Thus, authenticate() will return False for the user accounts that are disabled
+            More in https://github.com/django/django/tree/stable/6.0.x/django
+            Search in django.contrib.auth.backends in class ModelBackend
+            """
+            user = authenticate(request, username=form_data['email'], password=form_data['password'])
             if user is not None:
-                # verify the user is an active
-                if user.is_active:
-                    # login() saves the user’s ID in the session login() saves the user’s ID in the session through Django’s session framework
-                    login(request, user)
-                    return HttpResponseRedirect('/redirected-to-profile-dashboard')
-                else: 
-                    return HttpResponse('User account disabled')
+                # login() saves the user’s ID in the session login() saves the user’s ID in the session through Django’s session framework
+                login(request, user)
+                return HttpResponseRedirect('/redirected-to-profile-dashboard')
             else:
                 return HttpResponse('Login invalid. Please contact administrator.')
         
