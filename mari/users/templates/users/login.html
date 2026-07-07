@@ -7,6 +7,6 @@
         {% csrf_token %}
         <!-- as_p() renders the form as a series of <p> tags, with each <p> containing one field-->
         {{ form.as_p }}
-        <button type="submit">Submit</button>
+        <button type="submit" class="btn btn-dark">Submit</button>
     </form>
 {% endblock content %}
