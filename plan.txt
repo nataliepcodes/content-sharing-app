@@ -51,12 +51,12 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 ✅ app urls.py: create app level urls.py and add login url
 ✅ project urls.py: add the app url
 ✅ forms.py: create UserLoginForm class in forms.py
-🔵 views.py: to add user login_view method
-    🌸 implement form validation/authentification
+✅ views.py: to add user login_view method
+    ✅ implement form validation/authentification
         - use form.cleaned_data (it returns a dictionary) to get username and password
         - when I have a username and the password that are entered in the form, then I can check if the user exists/is active or the account is disabled
         - source explaining form.cleaned_data:https://stackoverflow.com/questions/53594745/what-is-the-use-of-cleaned-data-in-django?__cf_chl_f_tk=na4rBEiMWwBe.lrJu0NE8li1zqlQq7QxyBtNRzsE4Mg-1783431807-1.0.1.1-rz6AXgA9l78013kd1Jq6eYuOnYnsKJStp.d_v8VPP1c
-        - user.is_active: https://docs.djangoproject.com/en/6.0/ref/contrib/auth/
+        - user.is_active, not necessary in Django 6.0.x, it is covered within the authentificate(): https://docs.djangoproject.com/en/6.0/ref/contrib/auth/
 ------------------------------------------
 
 
@@ -74,7 +74,7 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 
 # CREATE SUPERUSER
 ------------------------------------------
-- $ python manage.py createsuperuser
+✅ $ python manage.py createsuperuser
 ------------------------------------------
 
 
