@@ -63,6 +63,21 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 # CREATE PASSWORD-RESET FEATURE
 ------------------------------------------
 🌸 implement 'Forgot the password' option
+HTML:
+🌸 Password reset request form page: to provide email address to send a password reset link to 
+🌸 Passwod reset request form confirmation of submission of email page
+🌸 Password reset form page (the link to it is clicked within the email)
+🌸 Passwod change confirmation page
+VIEWs:
+🌸 Update views.py with the relevant logic
+URLS:
+🌸 Updata urls.py with the relevant URLS
+CSS:
+🌸 Apply relevant styling
+
+ 
+
+ 
 ------------------------------------------
 
 
