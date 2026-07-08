@@ -5,5 +5,5 @@ app_name = 'users'
 
 urlpatterns = [
     path('login/', views.login_view, name='login'),
-    path('users/', include('django.contrib.auth.urls'))
+    path('', include('django.contrib.auth.urls'))
 ]
