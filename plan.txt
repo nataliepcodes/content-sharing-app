@@ -62,7 +62,7 @@ BUILDING A SOCIAL APPLICATION - CONTENT SHARING PLATFORM
 
 # CREATE PASSWORD-RESET FEATURE
 ------------------------------------------
-🌸 implement 'Forgot the password' / Reset the Password option
+✅ implement 'Forgot the password' / Reset the Password option
 NOTE: this is not a password change for the logged in users, this is a password reset at the time of LOGIN
 ------------------------------------------
 
