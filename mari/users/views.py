@@ -26,5 +26,5 @@ def login_view(request):
     else:
         form = UserLoginForm()
     
-    return render(request, "users/login.html", {"form": form})
+    return render(request, "registration/login.html", {"form": form})
 
