@@ -16,7 +16,7 @@ urlpatterns = [
     path('password-reset/done/', auth_views.PasswordResetDoneView.as_view(), name='password_reset_done'),
 
     # Path to a page with the password reset form to create a new password
-    path('reset/<uidb64>/<token>/', auth_views.PasswordResetConfirmView.as_view(), name='password_reset_confirm'),
+    path('reset/<uidb64>/<token>/', auth_views.PasswordResetConfirmView.as_view(success_url=reverse_lazy('users:password_reset_complete')), name='password_reset_confirm'),
     
     # Path to a page confirming that a new password has been set
     path('reset/done/', auth_views.PasswordResetCompleteView.as_view(), name='password_reset_complete'),
