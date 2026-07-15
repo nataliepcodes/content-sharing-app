@@ -20,4 +20,7 @@ urlpatterns = [
     
     # Path to a page confirming that a new password has been set
     path('reset/done/', auth_views.PasswordResetCompleteView.as_view(), name='password_reset_complete'),
+
+    # Path to dashboard
+    path('', path.dashboard_view, name='dashboard'),
 ]
