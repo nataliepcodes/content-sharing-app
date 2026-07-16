@@ -15,12 +15,14 @@
                 <a class="navbar-brand" href="#">Images</a> 
                 <a class="navbar-brand" href="#">People</a> 
             {% endif %}
-            <span class="navbar-text navbar-brand">
+
+            <span class="navbar-brand">
             {% if request.user.is_authenticated %}
-               Hello {{ request.user.first_name }}
-                <a href="#">Logout</a>
-            {% else %}
-                <a href="{% url 'users:login' %}">Login</a>
+                Hello, {{ request.user.first_name }} {{ request.user.last_name }} / 
+                <form action="{% url 'users:logout' %}" method="post" style="display:inline;">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-link navbar-brand p-0">Logout </button>
+                </form>
             {% endif %}
             </span>
         </div>
