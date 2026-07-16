@@ -1,11 +1,14 @@
-from django.shortcuts import render
-from django.http import HttpResponseRedirect, HttpResponse
+from django.shortcuts import render, redirect
+from django.http import HttpResponse
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
 from .forms import UserLoginForm
 
 
 def login_view(request):
+    if request.user.is_authenticated:
+        return redirect('users:dashboard')
+
     if request.method == 'POST':
         form = UserLoginForm(request.POST)
         if form.is_valid():
@@ -21,7 +24,7 @@ def login_view(request):
             if user is not None:
                 # login() saves the user’s ID in the session login() saves the user’s ID in the session through Django’s session framework
                 login(request, user)
-                return HttpResponseRedirect('users/dashboard.html')
+                return redirect('users:dashboard')
             else:
                 return HttpResponse('Login invalid. Please contact administrator.')
         
@@ -32,4 +35,4 @@ def login_view(request):
 
 @login_required
 def dashboard_view(request):
-    return render(request, 'users/dashboard.html', {'section': 'dashboard'})
+    return render(request, "users/dashboard.html", {'section': 'dashboard'})
