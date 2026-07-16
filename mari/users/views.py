@@ -21,7 +21,7 @@ def login_view(request):
             if user is not None:
                 # login() saves the user’s ID in the session login() saves the user’s ID in the session through Django’s session framework
                 login(request, user)
-                return HttpResponseRedirect('/redirected-to-profile-dashboard')
+                return HttpResponseRedirect('users/dashboard.html')
             else:
                 return HttpResponse('Login invalid. Please contact administrator.')
         
