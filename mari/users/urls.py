@@ -23,4 +23,7 @@ urlpatterns = [
 
     # Path to dashboard
     path('', views.dashboard_view, name='dashboard'),
+
+    # Logout 
+    path('logout/', auth_views.LogoutView.as_view(), name='logout'),
 ]
