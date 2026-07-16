@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Logged out{% endblock %}
+
+{% block content %}
+    <div>
+        <div class="d-flex flex-column align-items-center mt-5">
+                <h1 class="h3">Logged out</h1>
+                <p>You have been successfully logged out.</p> 
+                <p>You can <a href="{% url 'users:login' %}" class="text-decoration-none text-muted">login again.</a></p>
+        </div>
+    </div>
+{% endblock %}
