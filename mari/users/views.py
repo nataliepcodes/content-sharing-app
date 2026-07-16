@@ -32,4 +32,4 @@ def login_view(request):
 
 @login_required
 def dashboard_view(request):
-    return render(request, 'user/dashboard.html', {'section': 'dashboard'})
+    return render(request, 'users/dashboard.html', {'section': 'dashboard'})
