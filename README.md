@@ -4,9 +4,11 @@
 - Tech Stack: Python 3, Django
 - Topics covered:
     -  user authentication (login, logout, password change)
-    -  structured data models 
+    - structured data models
     - categories
-    - media management
+    - administration site for user management
+    - administration site set up with models
+    - ... more will be added as the project progresses
     - ...
 - [Project repository](https://github.com/nataliepcodes/content-sharing-app)
 - [Change log](https://github.com/nataliepcodes/content-sharing-app/blob/main/CHANGELOG/CHANGELOG.md)
