@@ -12,7 +12,7 @@
             <!-- IF USER AUTHENTICATED DISPLAY A DASHBOARD View and NAV Menu -->
             {% if request.user.is_authenticated %}
                 <a class="navbar-brand" href="{% url 'users:dashboard' %}">My Dashboard</a>
-                <a class="navbar-brand" href="#">Images</a> 
+                <a class="navbar-brand" href="#">Categories</a> 
                 <a class="navbar-brand" href="#">People</a> 
             {% endif %}
 
