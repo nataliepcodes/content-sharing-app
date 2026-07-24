@@ -9,9 +9,8 @@
     - media management
     - ...
 - [Project repository](https://github.com/nataliepcodes/content-sharing-app)
-- Change log - to be created
-- Website - still to be deployed
-- STATUS: version: to be confirmed
+- [Change log](https://github.com/nataliepcodes/content-sharing-app/blob/main/CHANGELOG/CHANGELOG.md)
+- STATUS: version-0.1 | work in progress
 
 ## Licence
 - This project is for learning and development purposes
