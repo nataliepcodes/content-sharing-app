@@ -1,6 +1,6 @@
-## MȦRI | Women in Science Educational Platform
+## MȦRI | Women in STEM Educational Platform
 - MȦRI - name inspired by Marie Curie, dot on a makes an 'Ȧ' as unique as Martinique
-- MȦRI is an educational content platform focused on sharing a content about inspiring women in science, their achievements, and their stories
+- MȦRI is an educational content platform focused on sharing a content about inspiring women in STEM*, their achievements, and their stories
 - Tech Stack: Python 3, Django
 - Topics covered:
     - user authentication (login, logout, password change)
@@ -13,6 +13,10 @@
 - [Project repository](https://github.com/nataliepcodes/content-sharing-app)
 - [Change log](https://github.com/nataliepcodes/content-sharing-app/blob/main/CHANGELOG/CHANGELOG.md)
 - STATUS: version-0.1 | work in progress
+
+## *STEM
+* Science, Technology, Engineering, Math
+* Source: [STEM by Twinkl teaching resouces](https://www.youtube.com/watch?v=F4Ya-etTbV0)
 
 ## Licence
 - This project is for learning and development purposes
