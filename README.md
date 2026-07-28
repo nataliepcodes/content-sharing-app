@@ -1,6 +1,6 @@
 ## MȦRI | Women in STEM Educational Platform
 - MȦRI - name inspired by Marie Curie, dot on a makes an 'Ȧ' as unique as Martinique
-- MȦRI is an educational content platform focused on sharing a content about inspiring women in STEM*, their achievements, and their stories
+- MȦRI is an educational content platform focused on sharing a content about inspiring women in *STEM, their achievements, and their stories
 - Tech Stack: Python 3, Django
 - Topics covered:
     - user authentication (login, logout, password change)
