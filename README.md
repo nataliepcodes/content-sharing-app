@@ -16,7 +16,11 @@
 
 ## *STEM
 * Science, Technology, Engineering, Math
-* Source: [STEM by Twinkl teaching resouces](https://www.youtube.com/watch?v=F4Ya-etTbV0)
+* Sources: 
+    - [STEM by Twinkl teaching resouces](https://www.youtube.com/watch?v=F4Ya-etTbV0)
+    - [STEM by Teacher Resource Cabin](https://www.youtube.com/watch?v=1zln8T4T9aA)
+    - [What's an Engineer? by Crash Course Kids](https://www.youtube.com/watch?v=owHF9iLyxic)
+    - [What does a scientist do? by Mystery Science](https://www.youtube.com/watch?v=rn3AEW8IS_Q)
 
 ## Licence
 - This project is for learning and development purposes
