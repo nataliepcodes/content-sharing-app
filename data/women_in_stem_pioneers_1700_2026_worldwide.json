@@ -966,5 +966,112 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Rana_el_Kaliouby",
     "imageUrl": "",
     "tags": ["AI", "computer science"]
+  },
+  {
+    "id": 51,
+    "name": "Hertha Ayrton",
+    "birth_date": "1854-04-28",
+    "death_date": "1923-08-26",
+    "birth_place": "Portsea, Hampshire, England",
+    "country": ["United Kingdom"],
+    "stem_category": "Engineering",
+    "field": "Electrical Engineering",
+    "subfields": ["Electric arcs", "Fluid dynamics"],
+    "biography": "Engineer advancing electrical engineering and fluid dynamics through pioneering experiments.",
+    "achievements": [
+      "Explained the behaviour of electric arcs",
+      "Invented the Ayrton fan for gas dispersal"
+    ],
+    "notable_projects": ["Electric arc research", "Wave formation studies"],
+    "awards": ["Hughes Medal (Royal Society)"],
+    "institutions": ["Institution of Electrical Engineers"],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hertha_Ayrton",
+    "image_url": "",
+    "tags": ["engineering", "electricity", "physics"]
+  },
+  {
+    "id": 52,
+    "name": "Grace Hopper",
+    "birth_date": "1906-12-09",
+    "death_date": "1992-01-01",
+    "birth_place": "New York City, United States",
+    "country": ["United States"],
+    "stem_category": "Technology",
+    "field": "Computer Science",
+    "subfields": ["Programming languages", "Compilers"],
+    "biography": "Computer scientist pioneering compilers and modern programming languages.",
+    "achievements": [
+      "Developed one of the first compilers",
+      "Helped create COBOL"
+    ],
+    "notable_projects": ["A-0 Compiler", "COBOL"],
+    "awards": ["National Medal of Technology"],
+    "institutions": ["United States Navy", "Harvard University"],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Grace_Hopper",
+    "image_url": "",
+    "tags": ["computer science", "software", "programming"]
+  },
+  {
+    "id": 53,
+    "name": "Cecilia Payne-Gaposchkin",
+    "birth_date": "1900-05-10",
+    "death_date": "1979-12-07",
+    "birth_place": "Wendover, Buckinghamshire, England",
+    "country": ["United Kingdom", "United States"],
+    "stem_category": "Science",
+    "field": "Astrophysics",
+    "subfields": ["Stellar astronomy", "Spectroscopy"],
+    "biography": "Astrophysicist discovering stars consist primarily of hydrogen and helium.",
+    "achievements": [
+      "Established stellar chemical composition",
+      "Transformed stellar astrophysics"
+    ],
+    "notable_projects": ["Stellar atmosphere research"],
+    "awards": ["Henry Norris Russell Lectureship"],
+    "institutions": ["Harvard University"],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cecilia_Payne-Gaposchkin",
+    "image_url": "",
+    "tags": ["astronomy", "astrophysics", "stars"]
+  },
+  {
+    "id": 54,
+    "name": "Valentina Tereshkova",
+    "birth_date": "1937-03-06",
+    "death_date": null,
+    "birth_place": "Maslennikovo, Yaroslavl Oblast, Soviet Union",
+    "country": ["Russia"],
+    "stem_category": "Engineering",
+    "field": "Aerospace Engineering",
+    "subfields": ["Spaceflight", "Cosmonautics"],
+    "biography": "Engineer and cosmonaut becoming the first woman to fly into space.",
+    "achievements": ["First woman in space", "Orbited Earth aboard Vostok 6"],
+    "notable_projects": ["Vostok 6 mission"],
+    "awards": ["Hero of the Soviet Union"],
+    "institutions": ["Soviet Space Program"],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Valentina_Tereshkova",
+    "image_url": "",
+    "tags": ["space", "engineering", "astronautics"]
+  },
+  {
+    "id": 55,
+    "name": "Frances Arnold",
+    "birth_date": "1956-07-25",
+    "death_date": null,
+    "birth_place": "Pittsburgh, Pennsylvania, United States",
+    "country": ["United States"],
+    "stem_category": "Engineering",
+    "field": "Chemical Engineering",
+    "subfields": ["Protein engineering", "Biochemistry"],
+    "biography": "Engineer pioneering directed evolution for enzyme engineering.",
+    "achievements": [
+      "Developed directed evolution techniques",
+      "Advanced sustainable enzyme design"
+    ],
+    "notable_projects": ["Directed evolution research"],
+    "awards": ["Nobel Prize in Chemistry"],
+    "institutions": ["California Institute of Technology"],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Frances_Arnold",
+    "image_url": "",
+    "tags": ["chemical engineering", "biotechnology", "chemistry"]
   }
 ]
