@@ -1,4 +1,4 @@
-## MȦRI | Women in STEM Educational Platform
+## MȦRI | inspiring Women leaders in STEM - Educational Platform
 - MȦRI - name inspired by Marie Curie, dot on a makes an 'Ȧ' as unique as Martinique
 - MȦRI is an educational content platform focused on sharing a content about inspiring women in *STEM, their achievements
 - Dataset collection  of 88 unique Women in STEM (1700–2026) with balanced representation across centuries, continents, and STEM disciplines
