@@ -16,5 +16,6 @@ settings.py
 # Private - WIP design, UI, app branding
 private/
 
-# JSON
+# JSON / data
 .json
+data/
