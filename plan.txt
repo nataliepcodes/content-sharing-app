@@ -1,5 +1,6 @@
 MȦRI is an educational platform focused on inspiring women in STEM
 
+LEGEND
 ------------------------------------------
 🌸 TODO 
 🔵 IN PROGRESS
@@ -69,7 +70,7 @@ NOTE: this is not a password change for the logged in users, this is a password 
 
 # CREATE PROFILE DASHBOARD
 ------------------------------------------
-🌸 implement "/redirected-to-profile-dashboard/"
+✅ implement "/redirected-to-profile-dashboard/"
 ------------------------------------------
 
 
@@ -96,9 +97,9 @@ OTHER
 
 ✅ Add/Break down the MVP related tasks in the task tracker 
 
-Check tailwind vs bootstrap CSS
+🌸 Check tailwind vs bootstrap CSS
 
-Start creating UML class diagram
+🌸 Start creating UML class diagram
 
-Explore where to host the site and check if it has SQLite or Postgres db
+🌸 Explore where to host the site and check if it has SQLite or Postgres db
 ------------------------------------------
