@@ -6,7 +6,7 @@
 - Sources:
     - [STEM](https://www.unesco.org/en/gender-equality/education/stem)
     - [Advancing Gender Equality in STEM](https://www.unesco.org/en/articles/advancing-gender-equality-stem-education-inspiring-girls-pursue-science#:~:text=Women%20and%20girls%20remain%20underrepresented,confidence%20and%20pursuing%20scientific%20careers.)
-- MȦRI is an educational platform focused on inspiring women in STEM
+- MȦRI is an educational platform focused on providing STEM role models related content to inspire more females to join STEM field
 - Tech Stack: Python 3, Django
 - Technical Topics covered:
     - user authentication (login, logout, password change)
