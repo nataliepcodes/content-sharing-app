@@ -7,6 +7,34 @@ LEGEND
 ✅ DONE
 ------------------------------------------
 
+
+Task
+------------------------------------------
+✅ Start the project
+✅ Define the initial Purpose - 'the why' and 'the what' it is
+    - update the README
+✅ Define the initial scope: potential features
+✅ Create a draft homepage to test the idea for the site
+    - https://mari-stem.my.canva.site/
+✅ Define MVP
+✅ Add/Break down the MVP related tasks in the task tracker 
+✅ Check tailwind vs bootstrap CSS
+🔵 Create initial UML class diagram
+🌸 Explore where to host the site and check if it has SQLite or Postgres db
+🌸 Change navbar from Bootstrap to Tailwind CSS
+🌸 Redirect authentification code to separate login link
+🌸 Create homepage
+🌸 Create initial project app structure - planned Django apps based MVP features (decide what's an app and what's a model..)
+🌸 Plan db relationships for feature 1
+🌸 Create app for feature 1
+🌸 Create model for feature 1
+🌸 Create views for feature 1
+🌸 Create url patterns for feature 1
+🌸 Create html files for feature 1
+
+------------------------------------------
+
+
 # STARTING THE PROJECT
 ------------------------------------------
 ✅ Create repository
@@ -81,25 +109,4 @@ NOTE: this is not a password change for the logged in users, this is a password 
 
 ------------------------------------------
 ✅ CREATE LOGOUT VIEW
-------------------------------------------
-
-OTHER
-------------------------------------------
-✅ Define the initial Purpose - 'the why' and 'the what' it is
-    - update the README
-
-✅ Define the initial scope: potential features
-
-✅ Create a draft homepage to test the idea for the site
-    - https://mari-stem.my.canva.site/
-
-✅ Define MVP
-
-✅ Add/Break down the MVP related tasks in the task tracker 
-
-✅ Check tailwind vs bootstrap CSS
-
-✅ Start creating UML class diagram
-
-🌸 Explore where to host the site and check if it has SQLite or Postgres db
 ------------------------------------------
