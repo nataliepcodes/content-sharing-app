@@ -97,9 +97,9 @@ OTHER
 
 ✅ Add/Break down the MVP related tasks in the task tracker 
 
-🌸 Check tailwind vs bootstrap CSS
+✅ Check tailwind vs bootstrap CSS
 
-🌸 Start creating UML class diagram
+✅ Start creating UML class diagram
 
 🌸 Explore where to host the site and check if it has SQLite or Postgres db
 ------------------------------------------
