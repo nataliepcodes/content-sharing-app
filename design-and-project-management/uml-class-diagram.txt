@@ -2,9 +2,17 @@ UML Class diagram for MȦRI project
 ==================================
 /*/ This files shares the public link to the UML class diagram
 /*/ Creation Date: 4th August 2026
-/*/ Last Revision Date: 4th August 2026
+/*/ Last Revision Date: 5th August 2026
 /*/ STATUS: Work in PROGRESS
 ==================================
 
-LINK: https://drive.google.com/file/d/1Zr93vL6U6MZ70551vN56MVoisqkDE2tO/view?usp=sharing
+LINK to UML: https://drive.google.com/file/d/1Zr93vL6U6MZ70551vN56MVoisqkDE2tO/view?usp=sharing
 
+
+Reference Resources
+==================================
+https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/
+
+
+
+==================================
