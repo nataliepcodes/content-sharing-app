@@ -26,3 +26,10 @@ https://honcho.readthedocs.io/en/latest/
 Source:
 https://pypi.org/project/django-browser-reload/
 
+
+
+Cheat Sheets for Tailwind CSS v4
+===============================
+https://www.creative-tim.com/twcomponents/cheatsheet/tailwind-css-4
+https://nerdcave.com/tailwind-cheat-sheet
+https://flowbite.com/tools/tailwind-cheat-sheet/
