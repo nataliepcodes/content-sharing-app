@@ -32,8 +32,9 @@ https://tailwindcss.com/docs/installation/tailwind-cli
 Tutorial by Piko can fly: https://www.youtube.com/watch?v=XQECGEjOo4M
 --1 check npm and node are installed:
 $ npm -v
-$ node -v 
-....both of mine are out of date.. upgrade..
+$ node -v
+To upgrade npm and node I followed instructions here: https://nodejs.org/en/download
+The instructions upgraded BOTH npm and node. No need to upgrad npm separately
 
 --2 Follow the official tailwind css documentation for Tailwind CLI Installation - it is STEP [01]
 
@@ -59,7 +60,6 @@ Run a command: $ npm run watch:css
 
 --8 Follow STEP [08] in Tailwind CSS documentation - link stylesheet in HTML
 !Note that the stylesheet that is linked in the HTML is for the output.css not input.css!
-!Note I think for my current version, I need to remove the Bootstrap CSS, first..!
 
 
 Cheat Sheets for Tailwind CSS v4
