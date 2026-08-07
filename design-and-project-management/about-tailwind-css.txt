@@ -1,3 +1,4 @@
+===============================
 How to start with Tailwind CSS?
 ===============================
 There seems to be a few options:
@@ -40,14 +41,16 @@ The instructions upgraded BOTH npm and node. No need to upgrad npm separately
 
 --3 Create static folder with src folder in the project directory/where manage.py is located: static/src
 --4 Create styles.css in static/src
---5 Add static folder reference to settings.py 
-    STATICFILES_DIRS = [BASE_DIR / "static"]
+--5 Add static folder reference to settings.py  - STATICFILES_DIRS = [BASE_DIR / "static"]
 --6 Paste import statement from the official docs into the styles.css 
 It is STEP [02] in Tailwind CSS documentation
 
 --7 Follow STEP [03] in Tailwind CSS documentation
 Run CLI tool that will scan files searching for classes and will build the CSS
-$ npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+$ npx @tailwindcss/cli -i ./static/src/styles.css -o ./static/src/output.css --watch
+
+/*
+Did not have have a package.json with the tailwindcss installation, hence the below is not applicable until verified
 
 Can add this command as a script to package.json
 "scripts" : {
@@ -55,13 +58,13 @@ Can add this command as a script to package.json
 }
 input [./src/input.css] needs to be replaced with the actual location of the css file
 output [./src/output.cs] needs to be replaced with the planned location of the output file 
-
 Run a command: $ npm run watch:css
+*/
 
 --8 Follow STEP [08] in Tailwind CSS documentation - link stylesheet in HTML
 !Note that the stylesheet that is linked in the HTML is for the output.css not input.css!
 
-
+===============================
 Cheat Sheets for Tailwind CSS v4
 ===============================
 https://www.creative-tim.com/twcomponents/cheatsheet/tailwind-css-4
