@@ -34,11 +34,6 @@ Tutorial by Piko can fly: https://www.youtube.com/watch?v=XQECGEjOo4M
 $ npm -v
 $ node -v 
 ....both of mine are out of date.. upgrade..
-....Check where I have the templates directory for base.html... just now seems a different location from Piko's..
-Templates folder with base.html needs to be in the the same place with manage.py .. check this point in the Django docs, why mine works??
-https://stackoverflow.com/questions/25810307/where-to-place-my-base-html-file
-https://docs.djangoproject.com/en/6.1/ref/templates/builtins/#extends
-https://stackoverflow.com/questions/1740436/what-is-the-best-location-to-put-templates-in-django-project
 
 --2 Follow the official tailwind css documentation for Tailwind CLI Installation - it is STEP [01]
 
