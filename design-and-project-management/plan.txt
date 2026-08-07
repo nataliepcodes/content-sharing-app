@@ -21,6 +21,7 @@ Task
 ✅ Check tailwind vs bootstrap CSS
 🔵 Create initial UML class diagram
 🌸 Explore where to host the site and check if it has SQLite or Postgres db
+✅ Remove bootsrap CSS and install Tailwind CSS 
 🌸 Change navbar from Bootstrap to Tailwind CSS
 🌸 Redirect authentification code to separate login link
 🌸 Create homepage
