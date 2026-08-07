@@ -1,0 +1,28 @@
+How to start with Tailwind CSS?
+===============================
+There seems to be a few options:
+
+1. Django + Tailwind CSS + Flowbite
+https://flowbite.com/docs/getting-started/django/
+
+Flowbite is open source library of UI components (buttons, drop-downs, navbars) based on top of Tailwind CSS framework
+Source: 
+https://flowbite.com/docs/getting-started/introduction/
+
+
+2. Django-Tailwind + Cookiecutter + Honcho + Reload
+Installation: https://django-tailwind.readthedocs.io/en/latest/installation.html
+
+* cookiecutter is open source command line utility for creating projects. It provides templates = "cookie cutters"
+Source:
+https://www.port.io/glossary/cookiecutter#:~:text=Cookiecutter%20is%20an%20open%2Dsource,known%20as%20%22cookie%20cutters%E2%80%9D.
+
+* honcho is a Python library/API for running a few processes at the same time.
+E.g.Django and Tailwind servers can run simultaneously with $ python manage.py tailwind dev
+Source:
+https://honcho.readthedocs.io/en/latest/
+
+* django-browser-reload is a package that automatically reloads the page during development
+Source:
+https://pypi.org/project/django-browser-reload/
+
