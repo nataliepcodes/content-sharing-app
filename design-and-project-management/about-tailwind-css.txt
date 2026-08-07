@@ -30,8 +30,38 @@ https://pypi.org/project/django-browser-reload/
 3. Tailwind CLI
 https://tailwindcss.com/docs/installation/tailwind-cli
 Tutorial by Piko can fly: https://www.youtube.com/watch?v=XQECGEjOo4M
+--1 check npm and node are installed:
+$ npm -v
+$ node -v 
+....both of mine are out of date.. upgrade..
+....Check where I have the templates directory for base.html... just now seems a different location from Piko's..
+Templates folder with base.html needs to be in the the same place with manage.py .. check this point in the Django docs, why mine works??
 
+--2 Follow the official tailwind css documentation for Tailwind CLI Installation - it is STEP [01]
 
+--3 Create static folder with src folder in the project directory/where manage.py is located: static/src
+--4 Create styles.css in static/src
+--5 Add static folder reference to settings.py 
+    STATICFILES_DIRS = [BASE_DIR / "static"]
+--6 Paste import statement from the official docs into the styles.css 
+It is STEP [02] in Tailwind CSS documentation
+
+--7 Follow STEP [03] in Tailwind CSS documentation
+Run CLI tool that will scan files searching for classes and will build the CSS
+$ npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+
+Can add this command as a script to package.json
+"scripts" : {
+    "watch:css" : "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+}
+input [./src/input.css] needs to be replaced with the actual location of the css file
+output [./src/output.cs] needs to be replaced with the planned location of the output file 
+
+Run a command: $ npm run watch:css
+
+--8 Follow STEP [08] in Tailwind CSS documentation - link stylesheet in HTML
+!Note that the stylesheet that is linked in the HTML is for the output.css not input.css!
+!Note I think for my current version, I need to remove the Bootstrap CSS, first..!
 
 
 Cheat Sheets for Tailwind CSS v4
