@@ -27,6 +27,12 @@ Source:
 https://pypi.org/project/django-browser-reload/
 
 
+3. Tailwind CLI
+https://tailwindcss.com/docs/installation/tailwind-cli
+Tutorial by Piko can fly: https://www.youtube.com/watch?v=XQECGEjOo4M
+
+
+
 
 Cheat Sheets for Tailwind CSS v4
 ===============================
