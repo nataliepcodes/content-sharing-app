@@ -6,26 +6,27 @@
     <link href="{% static 'src/output.css' %}" rel="stylesheet">
 </head>
 <body>
-    <h1><a href="#">MȦRI</a></h1>
+    <!-- NAV BAR -->
+    <nav>
+        <a href="#">MȦRI</a>
 
-    <!-- NAV BAR to be re-created with Tailwind CSS -->
-    
-    <!-- IF USER AUTHENTICATED DISPLAY A DASHBOARD View and NAV Menu -->
-    {% if request.user.is_authenticated %}
-        <a href="{% url 'users:dashboard' %}" class="lowercase underline decoration-wavy">My Dashboard</a>
-        <a href="#">Categories</a> 
-        <a href="#">People</a> 
-    {% endif %}
-
-    <span>
+        <!-- IF USER AUTHENTICATED DISPLAY A DASHBOARD View and NAV Menu -->
         {% if request.user.is_authenticated %}
-            Hello, {{ request.user.first_name }} {{ request.user.last_name }} / 
-            <form action="{% url 'users:logout' %}" method="post" style="display:inline;">
-                {% csrf_token %}
-                <button type="submit">Logout </button>
-            </form>
+            <a href="{% url 'users:dashboard' %}" class="lowercase underline decoration-wavy">My Dashboard</a>
+            <a href="#">Categories</a> 
+            <a href="#">People</a> 
         {% endif %}
-    </span>
+
+        <span>
+            {% if request.user.is_authenticated %}
+                Hello, {{ request.user.first_name }} {{ request.user.last_name }} / 
+                <form action="{% url 'users:logout' %}" method="post" style="display:inline;">
+                    {% csrf_token %}
+                    <button type="submit">Logout </button>
+                </form>
+            {% endif %}
+        </span>
+    </nav>
     
     <!-- CONTENT -->
     <div>
